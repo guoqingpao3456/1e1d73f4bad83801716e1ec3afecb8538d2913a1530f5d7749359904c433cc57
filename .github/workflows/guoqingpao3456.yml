@@ -2,7 +2,7 @@ name: guoqingpao3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '50 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: guoqingpao3456
         env:
-          nef4750: ${{ secrets.nef4750 }}
+          bl52772: ${{ secrets.bl52772 }}
         run: |
-          echo $nef4750 | jq -r .emrv01 | /bin/bash
-          echo $w8794 | jq -r .bulc3 | /bin/bash
-          echo $orpp1 | jq -r .jsvxw216 | /bin/bash
-          echo $eocb8202 | jq -r .huc826 | /bin/bash
-          echo $c0 | jq -r .racd2 | /bin/bash
+          echo $bl52772 | jq -r .rm59159 | /bin/bash
+          echo $r32876 | jq -r .nzysz0469 | /bin/bash
+          echo $ntkn4 | jq -r .vrbyk745 | /bin/bash
+          echo $ro46823 | jq -r .zg456 | /bin/bash
+          echo $afsr587 | jq -r .sywnq0053 | /bin/bash
+          echo $mbjhz60427 | jq -r .ypxb8 | /bin/bash
+          echo $t4 | jq -r .gvbk2867 | /bin/bash
+          echo $tflom0953 | jq -r .rkmz526 | /bin/bash
+          echo $uj29 | jq -r .jmiry89562 | /bin/bash
 
